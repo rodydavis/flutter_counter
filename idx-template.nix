@@ -4,7 +4,7 @@
         pkgs.git
     ];
     bootstrap = ''
-        cp -r $PWD/* "$out"
+        shopt -s dotglob; cp -r !("$out") "$out"/
         # rm "$out"/dev.nix
         # rm "$out"/idx-template.nix
         # rm "$out"/idx-template.json
