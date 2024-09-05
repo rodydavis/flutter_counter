@@ -1,0 +1,10 @@
+{
+  "name": "Flutter Counter",
+  "description": "A new Flutter project.",
+  "categories": ["Mobile"],
+  "icon": "",
+  "publisher": "Rody Davis",
+  "host": {
+    "virtualization": "true"
+  }
+}
