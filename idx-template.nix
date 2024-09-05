@@ -4,7 +4,7 @@
         pkgs.git
     ];
     bootstrap = ''
-        cp -r ${./}/* "$out"
+        cp -r ./* "$out"
         mkdir "$out"/.idx
         rm "$out"/dev.nix
         rm "$out"/idx-template.nix
